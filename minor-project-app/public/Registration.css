@@ -1,0 +1,22 @@
+.box
+{
+    border: 1px white solid;
+    height: 500px;
+    width: 500px;
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    box-shadow: rgba(168, 28, 54, 0.25) 0px 54px 55px, rgba(170, 50, 50, 0.12) 0px -12px 30px, rgba(168, 42, 42, 0.12) 0px 4px 6px, rgba(174, 29, 29, 0.17) 0px 12px 13px, rgba(190, 43, 43, 0.09) 0px -3px 5px;
+    /* background:linear-gradient(to left,pink,plum); */
+
+}
+body{
+     background-image: url('https://images.pexels.com/photos/1766838/pexels-photo-1766838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
